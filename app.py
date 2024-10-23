@@ -3,7 +3,7 @@ import numpy as np
 from shiny.express import ui, input, render
 
 # Set page options for the overall app, including a title and making it fillable
-ui.page_opts(title="🎉P1: Browser Interactive App🎉", fillable=True)
+ui.page_opts(title="P1: Browser Interactive App", fillable=True)
 
 # Create a sidebar with a slider input for controlling the number of bins in the histogram
 with ui.sidebar():
